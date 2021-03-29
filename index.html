@@ -6,13 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    </script> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -58,12 +64,361 @@
                 </ul>
             </div>
         </div>
-       
+
     </header>
     <main>
-        
     </main>
+    <!-------------- banner carousel ----------------->
+    <div class="carousel-bannerslide">
+        <div class="container-lg my-3">
+            <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <!-- slide01 -->
+                    <div class="carousel-item active">
+                        <div class="w3-container w3-center w3-animate-zoom">
+                            <img class="carousel-img" src="./images/slidethree.png" alt="First Slide">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="w3-container w3-center w3-animate-top">
+                                <h5>First slide label</h5>
+                            </div>
+                            <br/>
+                            <div class="w3-container w3-center w3-animate-bottom">
+                                <p class="paracaro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide02 -->
+                    <div class="carousel-item">
+                          <div class="w3-container w3-center w3-animate-zoom">
+                            <img class="carousel-img" src="./images/slideone.png" alt="Second Slide">
+                        </div>
     
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caro-content">
+                                <div class="w3-container w3-center w3-animate-top">
+                                    <h5>ARTIFICIAL INTELLIGENCE</h5>
+                                </div>
+                                <br/>
+                                <div class="w3-container w3-center w3-animate-bottom">
+                                    <p class="paracaro">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide03 -->
+                    <div class="carousel-item">
+                        <div class="w3-container w3-center w3-animate-zoom">
+                            <img class="carousel-img" src="./images/slidetwo.png" alt="Third Slide">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="w3-container w3-center w3-animate-top">
+                                <h5>First slide label</h5>
+                            </div>
+                            <br/>
+                            <div class="w3-container w3-center w3-animate-bottom">
+                                <p class="paracaro">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- What we do -->
+    <div class="what-we-section">
+        <div class="container">
+            <div class="what-we">
+                <p>What We Do</p>
+            </div>
+            <div class="what-line"></div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                <p>Cloud & Transformative</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Cloud & Transformative</h4>
+                        <p>Many software providers offer a broad portfolio of software as a service, platform as a
+                            service.</p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                <p>Enterprise Solutions</p>
+                <div class="overlay">
+
+                    <div class="text">
+                        <h4>Enterprise Solutions</h4>
+                        <p>Oracle E-Business Suite is a fully integrated, comprehensive suite of business applications.
+                        </p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <p>Professional Services</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Professional Services</h4>
+                        <p> An effective off shoring strategy is made up of the following components – Offshore Service
+                        </p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                <p>Business Intelligence</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Business Intelligence</h4>
+                        <p> Our services assist our clients to set up and run a Program Management office to run</p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <p>Outsourcing Services</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Outsourcing Services</h4>
+                        <p> Right Business Decisions at Right Time – requires timely access to the latest, most accurate
+                        </p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <p>PMO</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>PMO</h4>
+                        <p>A Project Management Office (PMO) is a center of excellence that ensures a consistent
+                            approach</p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-th" aria-hidden="true"></i>
+                <p>Mobility</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Mobility</h4>
+                        <p>As more and more companies turn to a contingent workforce strategy in times of economic
+                            uncertainty</p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                <p>Time Testing</p>
+                <div class="overlay">
+                    <div class="text">
+                        <h4>Time Testing</h4>
+                        <p>After more than 15 years doing implementations, we have the “know how”, a broad exposure</p>
+                        <button class="read-more-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------Why thriveon section-------------------------------------------- -->
+    <div class="wwhhy-triveon">
+        <div class="container">
+            <div class="why-threvion-title">
+                <p>Why ThriveOn ?</p>
+            </div>
+            <div class="whythriveon-container">
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>Knowledge Base</h4>
+                        <p>We are committed to the continual training and development of our consultants and technical
+                            resources…</p>
+                    </div>
+                </div>
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>Customized Solutions</h4>
+                        <p>We take the time to truly understand the details of your current architecture. We make the
+                            glove fit…</p>
+                    </div>
+                </div>
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>Trusted Partner</h4>
+                        <p>We focus on building long-term partnerships for a deep understanding of business needs that
+                        </p>
+                    </div>
+                </div>
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>High-Value Insights</h4>
+                        <p>The road to successfully achieving goals in IT is littered with risks. Our insights help you
+                            make…</p>
+                    </div>
+                </div>
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>Robust Offering</h4>
+                        <p>As a full-service IT consultancy, our comprehensive range of services and capabilities fits…
+                        </p>
+                    </div>
+                </div>
+                <div class="why-side-box">
+                    <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                    <div class="why-side-boxright">
+                        <h4>Customer First</h4>
+                        <p>We know the formula to success lies in our priorities. We always put the needs of the
+                            clients…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ythriveon-button"><a href=""> Read More</a></div>
+    </div>
+    <!----------------- About Us Section------------------>
+    <div class="about-us">
+        <div class="aboutcontimg">
+            <p>About Us</p>
+            <img src="./images/line.png" alt="">
+        </div>
+        <div class="about-para">
+            <p>With its global headquarters in Texas; ThriveOn is a top IT services firm
+                servicing clients across Fortune 500 Companies to Startups. Our talented team of
+                Business Consultants and Technologists average over 18 years of industry-honed
+                and have conducted many engagements worldwide. As the division between strategy, execution,
+                and optimization become increasingly blurred, and knowledge becomes a key source of value for
+                organizations in the new global economy, ThriveOn’s leadership team and consultants have combined
+                historical data, industry best practices, and analytical models to continue the support of our
+                clients as trusted partners. Our approach has continuously evolved and been refined to help
+                organizations reduce project complexities and accelerate return on investments.
+            </p>
+            <div class="abtbutton">
+                <a class="abtpara" href="">Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- ----------------Connect with us part------------ -->
+    <div class="connect-with-thrive">
+        <div class="cont-abv">
+            <h4>Connect With ThriveOn</h4>
+            <p>Communication with us in the Real World</p>
+        </div>
+        <div class="connect-with-container">
+            <div class="connectwith-grid">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <div class="connect-right">
+                    <h4>FIND US</h4>
+                    <p>Find Our Office Address</p>
+                </div>
+            </div>
+            <div class="connectwith-grid">
+                <i class="fa fa-comment" aria-hidden="true"></i>
+                <div class="connect-right">
+                    <h4>CHAT WITH US</h4>
+                    <p>Our folks are standing by to answer your most burning question right now.</p>
+                </div>
+            </div>
+            <div class="connectwith-grid">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <div class="connect-right">
+                    <h4>WRITE US</h4>
+                    <p>Fill out a quick form to tell us what you need!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------footer part --------------------------->
+    <footer>
+        <div class="footer-area">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="follow-us">
+                        <h4>FOLLOW US</h4>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact-parttwo">
+                    <h5>CORPORATE</h5>
+                    <ul>About</ul>
+                    <ul>Services</ul>
+                </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact-partthree">
+                    <h5>SERVICES</h5>
+                    <ul>Cloud Transformations</ul>
+                    <ul>Professional Services</ul>
+                    <ul>Enterprise Solutions</ul>
+                    <ul>Business Intelligence</ul>
+                    <ul>Outsourcing Services</ul>
+                    <ul>Mobility</ul>
+                    <ul>PMO</ul>
+                    <ul>Testing</ul>
+                </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact-partfour">
+                        <h5>CONTACT US</h5>
+                        <ul><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>ThriveOn Solutions LLC
+                                830 Julie rivers Dr ste 103 Sugarland 77478 TX</p>
+                        </ul>
+                        <ul><i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>+1(832)649-7267</p>
+                        </ul>
+                        <ul><i class="fa fa-skype" aria-hidden="true"></i>
+                            <p>ThriveOn</p>
+                        </ul>
+                        <ul><i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p>info@thriveonsolutions.com</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-partbottom">
+            
+                <p>© Copyrights 2019 /2020 ThriveOnSolutions. All Rights Reserved</p>
+            
+        </div>
+        </div>
+       
+    </footer>
 </body>
 
 </html>
