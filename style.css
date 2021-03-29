@@ -446,14 +446,4 @@ footer{
      margin-bottom: 100px;
  }
  
- .w3-container.w3-center.w3-animate-zoom {
-     animation: animatezoom 2.6s;
- }
- .w3-animate-bottom{
-     animation: animatezoom 3.6s;
-     animation-delay: 4s;
- }
- .w3-animate-top{
-     animation: animatezoom 2.6s;
-     animation-delay: 4s;
- }
+ 
