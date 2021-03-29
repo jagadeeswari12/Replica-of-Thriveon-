@@ -28,7 +28,10 @@
                 <img src="./images/logo.png" alt="dummy">
             </div>
             <div class="search-box">
-                <i class="fa fa-search"></i>
+                <div class="search-container">
+                    <input class="search expandright" id="searchright" type="search" name="search" placeholder="Search">
+                    <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+                </div>
             </div>
             <div id="menu-category">
                 <ul>
@@ -70,7 +73,7 @@
     </main>
     <!-------------- banner carousel ----------------->
     <div class="carousel-bannerslide">
-        <div class="container-lg my-3">
+        <div class="container-fluid my-3">
             <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
                 <!-- Carousel indicators -->
                 <ol class="carousel-indicators">
@@ -81,32 +84,32 @@
                 <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
                     <!-- slide01 -->
-                    <div class="carousel-item active">
-                        <div class="w3-container w3-center w3-animate-zoom">
+                    <div class="carousel-item active" style="background-color: #476481;">
+                        <div class="w3-container  w3-animate-zoom">
                             <img class="carousel-img" src="./images/slidethree.png" alt="First Slide">
                         </div>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="w3-container w3-center w3-animate-top">
                                 <h5>First slide label</h5>
                             </div>
-                            <br/>
+                            <br />
                             <div class="w3-container w3-center w3-animate-bottom">
                                 <p class="paracaro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
                     </div>
                     <!-- slide02 -->
-                    <div class="carousel-item">
-                          <div class="w3-container w3-center w3-animate-zoom">
+                    <div class="carousel-item" style="background-color: #500907;">
+                        <div class="w3-container w3-center w3-animate-zoom">
                             <img class="carousel-img" src="./images/slideone.png" alt="Second Slide">
                         </div>
-    
+
                         <div class="carousel-caption d-none d-md-block">
                             <div class="caro-content">
                                 <div class="w3-container w3-center w3-animate-top">
                                     <h5>ARTIFICIAL INTELLIGENCE</h5>
                                 </div>
-                                <br/>
+                                <br />
                                 <div class="w3-container w3-center w3-animate-bottom">
                                     <p class="paracaro">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </div>
@@ -122,11 +125,11 @@
                             <div class="w3-container w3-center w3-animate-top">
                                 <h5>First slide label</h5>
                             </div>
-                            <br/>
+                            <br />
                             <div class="w3-container w3-center w3-animate-bottom">
                                 <p class="paracaro">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                             </div>
-    
+
                         </div>
                     </div>
                 </div>
@@ -337,8 +340,63 @@
             <p>Communication with us in the Real World</p>
         </div>
         <div class="connect-with-container">
-            <div class="connectwith-grid">
-                <i class="fa fa-globe" aria-hidden="true"></i>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="connectwith-grid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i class="fa fa-globe" aria-hidden="true" style="font-size: 58px;"></i>
+
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="connect-right">
+                                            <h4>FIND US</h4>
+                                            <p>Find Our Office Address</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="connectwith-grid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i class="fa fa-comment" aria-hidden="true" style="font-size: 58px;"></i>
+
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="connect-right">
+                                            <h4>COMMENT US</h4>
+                                            <p>Our folks are standing by to answer your most burning question right now.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="connectwith-grid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <i class="fa fa-envelope" aria-hidden="true" style="font-size: 58px;"></i>
+
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="connect-right">
+                                            <h4>WRITE US</h4>
+                                            <p>Fill out a quick form to tell us what you need!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="connectwith-grid">
+                <i class="fa fa-globe" aria-hidden="true" style="font-size: 58px;"></i>
                 <div class="connect-right">
                     <h4>FIND US</h4>
                     <p>Find Our Office Address</p>
@@ -357,13 +415,14 @@
                     <h4>WRITE US</h4>
                     <p>Fill out a quick form to tell us what you need!</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
+
     <!-- -----------footer part --------------------------->
     <footer>
         <div class="footer-area">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-3">
                     <div class="follow-us">
                         <h4>FOLLOW US</h4>
@@ -374,23 +433,23 @@
                 </div>
                 <div class="col-md-3">
                     <div class="contact-parttwo">
-                    <h5>CORPORATE</h5>
-                    <ul>About</ul>
-                    <ul>Services</ul>
-                </div>
+                        <h5>CORPORATE</h5>
+                        <ul>About</ul>
+                        <ul>Services</ul>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="contact-partthree">
-                    <h5>SERVICES</h5>
-                    <ul>Cloud Transformations</ul>
-                    <ul>Professional Services</ul>
-                    <ul>Enterprise Solutions</ul>
-                    <ul>Business Intelligence</ul>
-                    <ul>Outsourcing Services</ul>
-                    <ul>Mobility</ul>
-                    <ul>PMO</ul>
-                    <ul>Testing</ul>
-                </div>
+                        <h5>SERVICES</h5>
+                        <ul>Cloud Transformations</ul>
+                        <ul>Professional Services</ul>
+                        <ul>Enterprise Solutions</ul>
+                        <ul>Business Intelligence</ul>
+                        <ul>Outsourcing Services</ul>
+                        <ul>Mobility</ul>
+                        <ul>PMO</ul>
+                        <ul>Testing</ul>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="contact-partfour">
@@ -410,14 +469,100 @@
                         </ul>
                     </div>
                 </div>
+            </div> -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="follow-us">
+                                <h4>FOLLOW US</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="follow-us">
+                                <h4>CORPORATE</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="follow-us">
+                                <h4>SERVICES</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="follow-us">
+                                <h4>CONTACT US</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="follow-us">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-parttwo">
+                                <p>About</p>
+                                <p>Services</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <p>Cloud Transformations</p>
+                            <p>Professional Services</p>
+                            <p>Enterprise Solutions</p>
+                            <p>Business Intelligence</p>
+                            <p>Outsourcing Serivces</p>
+                            <p>Mobility</p>
+                            <p>PMO</p>
+                            <p>Testing</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                <div class="col-md-9">
+                                    <p>ThriveOn Solutions LLC
+                                        830 Julie rivers Dr ste 103 Sugarland 77478 TX</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                <div class="col-md-9">
+                                    <p>+1(832)649-7267</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"><i class="fa fa-skype" aria-hidden="true"></i></div>
+                                <div class="col-md-9">
+                                    <p>ThriveOn</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div class="col-md-9">
+                                    <p>info@thriveonsolutions.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="footer-partbottom">
-            
+
                 <p>© Copyrights 2019 /2020 ThriveOnSolutions. All Rights Reserved</p>
-            
+
+            </div>
         </div>
-        </div>
-       
+
     </footer>
 </body>
 
