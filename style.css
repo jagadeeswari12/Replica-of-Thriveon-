@@ -20,6 +20,7 @@
     display: inline-block;
 
 }
+
 #menu-category ul li a {
     display: block;
     text-decoration: none;
@@ -36,6 +37,7 @@
 .menu-list {
     display: none;
     position: absolute;
+    background-color: white;
     width: 205px;
     text-align: left;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -60,8 +62,9 @@
 
 
 .logo_img {
-    float:left;
+    float: left;
 }
+
 .search-box {
     float: right;
     text-decoration: none;
@@ -69,3 +72,284 @@
     padding-left: 20px;
 }
 
+/* what-we-Do */
+.what-line {
+    border-bottom: 2px solid gray;
+    width: 210px;
+    margin: auto;
+}
+
+.what-we {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+}
+
+.grid-item {
+
+    border: 1px solid #bdb8b8;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid-item p {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.grid-item i {
+    margin-top: 30px;
+    color: white;
+    background: #fcd14d;
+    padding: 25px;
+    font-size: 41px;
+    border-radius: 45px;
+    position: relative;
+  
+}
+  .grid-item:hover .overlay {
+    
+    height: 100%;
+  }
+    
+  
+  .text{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+.overlay{
+    position: relative;
+    bottom: 100%;
+    background-color: #fcd14d;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.grid-item .overlay p{
+    font-size: 12px;
+    
+}
+.text p{
+    text-align: center;
+    width: 200px;
+}
+
+.text button{
+    background: #fff;
+    font-size: 13px;
+    border: 0px;
+    padding: 5px 15px 5px 15px;
+}
+.text h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.text button:hover{
+    background: rgb(106, 207, 106);
+    font-size: 13px;
+    border: 0px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+/* why thriveon section css starts here */
+
+.wwhhy-triveon {
+    background: #1bb4ff;
+    margin: 30px 0px 0px;
+    padding: 15px;
+    }
+.why-threvion-title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    padding: 30px 0px 0px 0px;
+}
+.whythriveon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.why-side-box{
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+}
+.why-side-box i {
+    float: left;
+    font-size: 80px;
+    color: #fcd14d;
+    background: white;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+.why-side-boxright{
+    color: white;
+}
+.why-side-boxright p{
+    font-size: 13px;
+}
+.why-side-boxright h4{
+    font-size: 15px;
+}
+.wwhhy-triveon .ythriveon-button  a{
+    color: white;
+    border:1px  solid white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.ythriveon-button{
+    text-align: center;
+}
+/* ------------About us code starts from here ------------ */
+.about-us{
+    margin: 30px 0px 30px 0px;
+}
+.aboutcontimg{
+    text-align: center;
+}
+.aboutcontimg p{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.about-para p{
+    padding: 20px;
+}
+.about-para a{
+    background-color: rgb(106, 207, 106);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.abtpara a{ 
+    text-align: center;
+}
+.abtbutton {
+    text-align: center;
+}
+/* ----------connect with us thriveon solution------------ */
+.connect-with-thrive{
+    background-color:  #1bb4ff;
+    padding: 30px 0px 30px 0px;
+}
+
+.connectwith-grid i{    
+background-color: #fcd14d;
+    color: white;
+    border-radius: 60px;
+    margin-right: 20px;
+    float: left;
+    font-size: 49px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+}
+.connect-with-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+}
+.cont-abv{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.connect-right {
+    color: white;
+}
+.connectwith-grid:hover i{
+     background:white;
+     color: rgb(106, 207, 106);
+     
+     
+}
+/* ----------footer code starts from here------------ */
+footer{
+    background-color: #333;
+    color: white;
+}
+.contact-partfour ul i {
+    float: left;
+    margin-right: 12px;
+}
+.footer-area{
+    padding: 20px;
+}
+.follow-us i {
+    font-size: 30px;
+    padding: 3px;
+}
+.footer-partbottom p{
+    border-top: 1px  #b19e9e;
+    color: white;
+}
+/* --------------banner carousel slide------------- */
+.carousel-bannerslide {
+    margin-top: 110px;
+}
+
+/* carousel*/
+.carousel-img{
+    float: right;
+ }
+ 
+ 
+ .carousel{
+     background: #2f4357;
+     margin-top: 20px;
+ }
+ .carousel-item{
+     text-align: center;
+     min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+ }
+ .carousel-caption.d-none.d-md-block h5{
+     float: left;
+     
+ }
+ .paracaro{
+     text-align: left;
+     margin-right: 50px;
+    
+ }
+ .carousel-caption.d-none.d-md-block p{
+     margin-bottom: 100px;
+ }
+ 
+ 
+ 
+ .w3-container.w3-center.w3-animate-zoom {
+     animation: animatezoom 2.6s;
+ }
+ .w3-animate-bottom{
+     animation: animatezoom 3.6s;
+     animation-delay: 4s;
+ }
+ .w3-animate-top{
+     animation: animatezoom 2.6s;
+     animation-delay: 4s;
+ }
